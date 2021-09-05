@@ -7,7 +7,7 @@ const project = [
     },
     {
       title: "Digital Resume",
-      link: "https://facebook-beta.vercel.app/",
+      link: "https://portfolio-delta-cyan-27.vercel.app/",
       pic: "/portfolio.png",
       description: "'Digital Resume built with Reactjs'",
     },
