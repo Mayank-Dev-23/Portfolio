@@ -92,7 +92,7 @@ function Banner({open,toogle}) {
         className=" top-4 fixed z-40 bg-red-400 p-2 rounded-full right-4 cursor-pointer md:hidden">
         <FaBars size="1.7rem" />
       </div>
-      <div className={ !open ? "fixed top-20 right-10 text-white back p-4 z-50 rounded-md md:hidden shadow-lg": "hidden"}>
+      <div className={ !open ? "fixed top-20 right-10 text-white back p-8  z-50 rounded-md md:hidden shadow-lg": "hidden"}>
      
         {links.map((item, index)=>(
            <Link 
@@ -107,7 +107,7 @@ function Banner({open,toogle}) {
            
            
            >
-          <h1 className="p-1  hover:bg-white  rounded-sm hover:text-black transition cursor-pointer duration-200 ease-in "
+          <h1 className="p-2  hover:bg-white  rounded-sm hover:text-black transition cursor-pointer duration-200 ease-in "
            key={index}>{item.title}</h1>
            </Link>
         ))}

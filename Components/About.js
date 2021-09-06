@@ -12,8 +12,7 @@ function About() {
       <div className="shadow-lg p-4 mb-10 rounded-md">
         <h1 className="text-semibold uppercase text-2xl text-white">About me</h1>
         <p className= "pt-4  text-md  ">
-          My name is Mayank, I'm a Full Stack ReactJS Developer. I am a
-          Full-stack web developer and web designer focused on clean &
+          My name is Mayank, I'm a Full Stack ReactJS Developer and web designer focused on clean &
           user-friendly experiences, I am passionate about building excellent
           websites that improves the lives of those around me.
         </p>
