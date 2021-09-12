@@ -11,6 +11,19 @@
 }
 
 
+.home{
+  background-image: linear-gradient(to right, #43cea2, #185a9d); 
+}
+.bar{
+  background-color: #43cea2;
+}
+
+.dropdown{
+  /* background-color: #43cea2; */
+  background-image: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+
 html,body{
   overflow-x: hidden;
   margin: 0;
@@ -29,6 +42,7 @@ html,body{
 
 .back{
   background-color: #2b2b2b;
+  /* background-image: linear-gradient(to right, #43cea2, #185a9d); */
   animation: smooth 0.4s ease-in;
 }
 
@@ -72,8 +86,10 @@ color:#353535;
 }
 .active{
  
-  color:rgba(248, 113, 113);
+  /* color:white; */
+  background-color: whitesmoke;
   border-radius: 0.125rem;
+  color:black;
 }
 
 
