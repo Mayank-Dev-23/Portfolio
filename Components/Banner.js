@@ -25,9 +25,9 @@ function Banner({open,toogle}) {
     AOS.init({ duration: 3000 });
   }, []);
   return (
-    <div className="relative h-screen " id="home">
+    <div className="relative h-screen home " id="home">
      
-      <Image src="/background1.jpg" layout="fill" objectFit="cover" />
+      {/* <Image src="/background1.jpg" layout="fill" objectFit="cover" /> */}
 
       <div className="relative flex justify-center items-center h-full px-20 flex-col  banner  ">
         {/* <h1 className="text-6xl lg:text-7xl uppercase font-semibold ">i'm mayank saxena</h1> */}
@@ -81,18 +81,18 @@ function Banner({open,toogle}) {
         
         
         >
-        <div className="relative top-32 bg-gray-200 p-2 rounded-full animate-bounce cursor-pointer hover:bg-gray-400
+        <div className="relative top-32 bg-black p-2 rounded-full animate-bounce cursor-pointer hover:bg-white group
         transition transform duration-300 ease-in
         ">
-            <  FaArrowDown  size="1.7rem"/>
+            <  FaArrowDown  size="1.7rem" className="text-white  group-hover:text-black" />
         </div>
         </Link>
         <div data-aos="fade-left"
         onClick={toogle}
-        className=" top-4 fixed z-40 bg-red-400 p-2 rounded-full right-4 cursor-pointer md:hidden">
+        className=" top-4 fixed z-40 dropdown p-2 rounded-full right-4 cursor-pointer md:hidden">
         <FaBars size="1.7rem" />
       </div>
-      <div className={ !open ? "fixed top-20 right-10 text-white back p-8  z-50 rounded-md md:hidden shadow-lg": "hidden"}>
+      <div className={ !open ? "fixed top-20 right-10  back p-8  z-50 rounded-md md:hidden shadow-lg": "hidden"}>
      
         {links.map((item, index)=>(
            <Link 
@@ -102,12 +102,12 @@ function Banner({open,toogle}) {
            smooth={true}
            offset={-70}
            duration={500}
-           key={index}
+      
            onClick={toogle}
            
            
            >
-          <h1 className="p-2  hover:bg-white  rounded-sm hover:text-black transition cursor-pointer duration-200 ease-in "
+          <h1  key={index} className="p-2  cursor-pointer rounded-sm  font-normal  text-white hover:bg-white hover:text-black transition duration-200 ease-in "
            key={index}>{item.title}</h1>
            </Link>
         ))}

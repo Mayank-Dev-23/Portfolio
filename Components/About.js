@@ -9,7 +9,7 @@ function About() {
         <Image src="/mayank.jpg" layout="fill" objectFit="cover" 
         className="sm:rounded-full md:rounded-sm  shadow-lg"/>
       </div>
-      <div className="shadow-lg p-4 mb-10 rounded-md">
+      <div className="shadow-2xl p-4 mb-10 rounded-md border-2 border-black border-opacity-10">
         <h1 className="text-semibold uppercase text-2xl text-white">About me</h1>
         <p className= "pt-4  text-md  ">
           My name is Mayank, I'm a Full Stack ReactJS Developer and web designer focused on clean &

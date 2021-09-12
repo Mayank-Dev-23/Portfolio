@@ -26,13 +26,13 @@ function sendEmail(e){
     return (
         <div
         id="contact" 
-        className="h-screen w-full contact grid  lg:px-32 md:grid-cols-2 items-center">
+        className="h-auto py-12 w-full contact grid  lg:px-32 md:grid-cols-2 items-center">
           
             <div className="relative h-96 w-96 hidden md:flex">
                 <Image src="/contact.png" layout="fill" objectFit="contain"/>
             </div>
 
-            <div className="flex justify-center mt-16">
+            <div className="flex justify-center ">
 
             <form   onSubmit={sendEmail}>
         <h1 className="text-white font-medium label">Name *</h1>
