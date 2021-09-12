@@ -8,7 +8,7 @@ import Skills from '../Components/Skills'
 import Work from '../Components/Work'
 
 import { useEffect, useState } from 'react'
-import Dropdown from '../Components/Dropdown'
+// import Dropdown from '../Components/Dropdown'
 
 
 
