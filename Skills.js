@@ -19,7 +19,7 @@ function Skills() {
            <p className="pt-8 skillhead font1">My Programming Language Proficiency</p>
             </div>
 
-<div className="flex   items-center flex-col   sm:shadow-xl  mt-10 border-2 border-white  border-opacity-30 rounded-sm">
+<div className="flex   items-center flex-col   sm:shadow-xl  mt-10 ">
     {skill.map((item,index)=>(
         <Bar  key={index} item={item}/>
     ))}
