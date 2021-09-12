@@ -4,7 +4,7 @@ import Socialicon from "./Socialicon";
  
  function Footer() {
     return (
-        <footer className="bg-black h-56 text-gray-300  ">
+        <footer className="footer h-56 text-gray-800  ">
                <div className="  social  flex justify-center space-x-5 pt-10 mb-9 ">
                   <Socialicon   Icon={FaFacebookF}  link={"https://www.facebook.com/mayank.saxena.37604303/"}/>
                   <Socialicon  Icon={FaInstagram}   link={"https://www.instagram.com/maynk_23/"}/>

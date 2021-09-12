@@ -28,26 +28,26 @@ function sendEmail(e){
         id="contact" 
         className="h-auto py-12 w-full contact grid  lg:px-32 md:grid-cols-2 items-center">
           
-            <div className="relative h-96 w-96 hidden md:flex">
+            <div className="relative h-96 w-96 hidden md:flex ">
                 <Image src="/contact.png" layout="fill" objectFit="contain"/>
             </div>
 
-            <div className="flex justify-center ">
+            <div className="flex justify-center  ">
 
             <form   onSubmit={sendEmail}>
-        <h1 className="text-white font-medium label">Name *</h1>
+        <h1 className=" font-medium label " >Name *</h1>
         <input
-          className="h-12 w-96 input outline-none border-none text-gray-300"
+          className="h-12 w-96 input outline-none border-none text-black"
           type="text" name="name"
         />
-        <h1 className="text-white font-medium label">Email *</h1>
+        <h1 className="text-black font-medium label">Email *</h1>
         <input
-          className="h-12 w-96 input outline-none border-none text-gray-300"
+          className="h-12 w-96 input outline-none border-none text-black"
           type="text" name="email"
         />
-        <h1 className="text-white font-medium label">Message *</h1>
+        <h1 className="text-black font-medium label">Message *</h1>
         <textarea
-          className="h-48 flex items-start w-96  text-gray-300 input outline-none border-none"
+          className="h-48 flex items-start w-96  text-black input outline-none border-none"
           type="text" name="message"  
           value={message} onChange={(e)=>Setmessage(e.target.value)}
         />

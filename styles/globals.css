@@ -13,6 +13,7 @@
 
 .home{
   background-image: linear-gradient(to right, #43cea2, #185a9d); 
+    
 }
 .bar{
   background-color: #43cea2;
@@ -73,10 +74,12 @@ html,body{
 color:#353535;
 }
 .contact{
-  background-color:#191919
+  /* background-color:#191919 */
+  /* background-color: gray; */
+  background-color: #808080;
 }
 .input{
-  background-color:#373233;
+  background-color:whitesmoke;
   margin-bottom:20px ;
   border-radius: 5px;
 }
@@ -92,6 +95,20 @@ color:#353535;
   color:black;
 }
 
+.footer{
+  background-color:#d3d3d3
+}
+
+.card{
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-left: 1px solid rgba(255,255,255,0.5);
+ 
+  
+}
 
 
 
